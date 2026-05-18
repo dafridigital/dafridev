@@ -1,0 +1,17 @@
+[
+  {
+    "nama": "Basic",
+    "harga": "300rb",
+    "fitur": ["Landing Page", "1 Halaman", "Domain .com", "WhatsApp Button"]
+  },
+  {
+    "nama": "UMKM",
+    "harga": "500rb",
+    "fitur": ["Website Katalog", "Hingga 5 Halaman", "WA Order", "SEO Dasar", "Mobile Ready"]
+  },
+  {
+    "nama": "Pro",
+    "harga": "1jt+",
+    "fitur": ["Custom Design", "Full Admin Panel", "E-Commerce System", "Support 1 Tahun", "Optimasi Kecepatan"]
+  }
+]

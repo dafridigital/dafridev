@@ -1,0 +1,20 @@
+[
+  {
+    "nama": "Jaitweb",
+    "deskripsi": "Katalog jahit berbasis Google Sheet untuk penjahit lokal.",
+    "label": "Katalog",
+    "link": "https://dafridigital.github.io/rumah-jahit-mak-long/index.html?key=ISAH"
+  },
+  {
+    "nama": "UDD PMI Karimun",
+    "deskripsi": "Sistem manajemen data donor darah UDD PMI Karimun yang terintegrasi.",
+    "label": "Web App",
+    "link": "https://updpmi.com"
+  },
+  {
+    "nama": "Menu Digital UMKM",
+    "deskripsi": "Website menu digital modern untuk warung, cafe & restoran kecil.",
+    "label": "Katalog",
+    "link": "https://dafridigital.github.io/menu-digital-umkm/?key=WRW01"
+  }
+]

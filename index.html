@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAFRI DEV - Solusi Website UMKM Indonesia</title>
+    <meta name="description" content="Jasa pembuatan website profesional untuk UMKM Indonesia. Modern, responsif, dan terjangkau.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="public/img/dafri-logo.png">
+    
+    <!-- Google Fonts & Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <img src="public/img/dafri-logo.png" alt="Dafri Dev">
+                <span>DAFRI DEV</span>
+            </a>
+            <div class="nav-links">
+                <a href="#about">Tentang</a>
+                <a href="#portfolio">Portofolio</a>
+                <a href="#services">Harga</a>
+                <a href="#contact">Kontak</a>
+                <button class="dark-toggle"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="container hero">
+        <h1>Solusi Website <span class="highlight">UMKM</span> Indonesia Naik Kelas</h1>
+        <p>Bantu bisnis Anda tumbuh lebih cepat dengan website profesional yang modern, cepat, dan SEO friendly. DAFRI DEV siap menjadi mitra digital Anda.</p>
+        <div class="flex gap-4">
+            <a href="#" class="btn btn-primary wa-link" target="_blank">
+                Konsultasi Gratis <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#services" class="btn btn-outline">Lihat Paket Harga</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+        <div class="grid grid-3">
+            <div class="card">
+                <i class="fas fa-rocket fa-2x highlight mb-4"></i>
+                <h3>Cepat & Ringan</h3>
+                <p>Website dioptimasi untuk kecepatan akses maksimal agar pelanggan tidak menunggu lama.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-mobile-alt fa-2x highlight mb-4"></i>
+                <h3>Mobile Friendly</h3>
+                <p>Tampilan yang sempurna di semua perangkat, mulai dari smartphone hingga desktop.</p>
+            </div>
+            <div class="card">
+                <i class="fas fa-search fa-2x highlight mb-4"></i>
+                <h3>SEO Optimized</h3>
+                <p>Struktur website yang ramah mesin pencari (Google) agar mudah ditemukan pelanggan.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" style="background-color: rgba(37,99,235,0.02);">
+        <div class="container">
+            <h2 class="section-title">Portofolio Unggulan</h2>
+            <div id="project-grid" class="grid grid-3">
+                <!-- Data loaded from projects.json -->
+                <p style="text-align: center;">Loading projects...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="container">
+        <h2 class="section-title">Pilih Paket Sesuai Kebutuhan</h2>
+        <div id="services-grid" class="grid grid-3">
+            <!-- Data loaded from services.json -->
+            <p style="text-align: center;">Loading services...</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="background-color: var(--card);">
+        <div class="container contact-container">
+            <div>
+                <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Hubungi Kami</h2>
+                <p style="font-size: 1.125rem; opacity: 0.8; margin-bottom: 2rem;">Siap membantu Anda membuat website impian. Konsultasikan ide Anda secara gratis!</p>
+                
+                <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+                    <i class="fas fa-envelope highlight"></i>
+                    <span>dafri.digital@gmail.com</span>
+                </div>
+                
+                <div class="social-links">
+                    <a href="https://www.instagram.com/dafridigital/" class="social-icon" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/dede-ashudi-a88567159/" class="social-icon" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.youtube.com/@dafridigital" class="social-icon" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h3>Kirim Pesan Cepat</h3>
+                <p style="margin-bottom: 1.5rem; opacity: 0.8;">Lebih suka chat langsung? Klik tombol di bawah.</p>
+                <a href="https://api.whatsapp.com/send?phone=6285199531660" class="btn btn-primary wa-link" style="width: 100%; justify-content: center;" target="_blank">
+                    Chat via WhatsApp <i class="fab fa-whatsapp"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p><strong>Dede Ashudi, A.Md.Kom</strong></p>
+            <p style="opacity: 0.7; margin-top: 0.5rem;">&copy; 2026 DAFRI DEV - Solusi Website UMKM Indonesia</p>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://api.whatsapp.com/send?phone=6285199531660" class="whatsapp-float wa-link" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
