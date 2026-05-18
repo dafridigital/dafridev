@@ -1,28 +1,62 @@
-# DAFRI DEV - Simple Version (HTML/CSS/JS)
+# 🧑‍💻 DAFRI DEV — Solusi Website UMKM Indonesia
 
-Website landing page DAFRI DEV versi sederhana yang mudah diedit tanpa perlu coding kompleks atau build tools.
+Website profil freelance web developer DAFRI Digital Studio. Showcase portfolio & layanan pembuatan website untuk UMKM Indonesia.
 
-## Struktur Project
-- `index.html`: Struktur utama website.
-- `style.css`: Desain dan styling (termasuk Dark Mode).
-- `script.js`: Logika untuk memuat data JSON secara dinamis.
-- `data/`: Folder penyimpanan data (Project & Services).
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 
-## Cara Edit Data (TANPA CODING)
+---
 
-### 1. Menambah/Mengubah Project Portfolio
-Buka file `data/projects.json`, lalu tambahkan atau ubah data di dalamnya:
+## ✨ Fitur
+
+- 🌙 **Dark Mode & Light Mode** — Toggle tema, preferensi tersimpan otomatis
+- 📂 **Portfolio Dinamis** — Data project dimuat dari `data/projects.json`
+- 💰 **Paket Harga** — Data layanan dimuat dari `data/services.json`
+- 💬 **Konsultasi via WhatsApp** — Tombol langsung ke chat WhatsApp
+- 📱 **Fully Responsive** — Tampil rapi di HP, tablet, dan desktop
+
+---
+
+## 💰 Paket Layanan
+
+| Paket | Harga | Fitur |
+|-------|-------|-------|
+| Basic | 300rb | Landing Page, 1 Halaman, WhatsApp Button |
+| UMKM | 500rb | Website Katalog, 5 Halaman, WA Order, SEO Dasar, Mobile Ready |
+| Pro | 1jt+ | Custom Design, Admin Panel, E-Commerce, Support 1 Tahun |
+
+---
+
+## 📁 Struktur File
+
+```
+dafridev/
+├── index.html          # Halaman utama
+├── style.css           # Tampilan & dark mode & responsif
+├── script.js           # Load data JSON dinamis
+├── data/
+│   ├── projects.json   # Data portfolio project
+│   └── services.json   # Data paket harga layanan
+└── public/
+    └── img/            # Aset gambar & logo
+```
+
+---
+
+## ✏️ Cara Edit Data (Tanpa Coding)
+
+**Tambah project portfolio** — edit `data/projects.json`:
 ```json
 {
-  "nama": "Nama Project Baru",
+  "nama": "Nama Project",
   "deskripsi": "Deskripsi singkat project.",
   "label": "Kategori",
-  "link": "Link WhatsApp/Website"
+  "link": "https://link-project.com"
 }
 ```
 
-### 2. Mengubah Paket Harga & Layanan
-Buka file `data/services.json`, lalu ubah nama paket, harga, atau daftar fiturnya:
+**Ubah paket harga** — edit `data/services.json`:
 ```json
 {
   "nama": "Nama Paket",
@@ -31,11 +65,19 @@ Buka file `data/services.json`, lalu ubah nama paket, harga, atau daftar fiturny
 }
 ```
 
-## Cara Menjalankan
-Cukup buka file `index.html` langsung di browser Anda.
+---
 
-## Cara Deploy ke GitHub Pages
-1. Upload semua file ini ke repository GitHub Anda.
-2. Masuk ke tab **Settings** > **Pages**.
-3. Pilih branch `main` dan folder `/ (root)`.
-4. Klik **Save**. Website Anda akan online dalam hitungan menit!
+## 🌐 Live Demo
+
+👉 [dafridigital.github.io/dafridev](https://dafridigital.github.io/dafridev)
+
+---
+
+## 👨‍💻 Developer
+
+Dibuat oleh **DAFRI Digital Studio**
+Solusi website digital untuk UMKM Indonesia.
+
+- 📸 Instagram: [@dafridigital](https://instagram.com/dafridigital)
+- 🎥 YouTube: [@DafriDev](https://youtube.com/@DafriDev)
+- 💬 WhatsApp: [Chat Sekarang](https://api.whatsapp.com/send?phone=6285199531660)
