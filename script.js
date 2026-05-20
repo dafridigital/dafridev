@@ -3,7 +3,7 @@ const state = {
   theme: localStorage.getItem('theme') || 'light'
 };
 
-const waNumber = "6285724168563";
+const waNumber = "085199531660";
 const waLink = `https://wa.me/${waNumber}?text=Halo%20Dafri%20Dev,%20saya%20ingin%20konsultasi%20pembuatan%20website.`;
 
 // Theme Logic
