@@ -1,17 +1,17 @@
 [
   {
     "nama": "Basic",
-    "harga": "150rb",
+    "harga": "",
     "fitur": ["Landing Page 1 Halaman", "WhatsApp Button", "Mobile Friendly", "Deploy Gratis (GitHub Pages)"]
   },
   {
     "nama": "UMKM",
-    "harga": "400rb",
+    "harga": "",
     "fitur": ["Website Katalog Produk/Menu", "Data Kelola via Google Sheets", "WhatsApp Order", "SEO Dasar", "Mobile Friendly"]
   },
   {
     "nama": "Pro",
-    "harga": "750rb",
+    "harga": "",
     "fitur": ["Semua Fitur UMKM", "Hingga 5 Halaman", "Custom Design", "Google Maps Integrasi", "Support 1 Bulan"]
   }
 ]
