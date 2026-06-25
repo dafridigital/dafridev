@@ -1,6 +1,6 @@
-# 🧑‍💻 DAFRI DEV — Solusi Website UMKM Indonesia
+# 🧑‍💻 DAFRI DEV — Jasa Pembuatan Website Profesional
 
-Website profil freelance web developer DAFRI Digital Studio. Showcase portfolio & layanan pembuatan website untuk UMKM Indonesia.
+Website profil freelance web developer DAFRI Digital Studio. Showcase portfolio & layanan pembuatan website profesional.
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
@@ -12,19 +12,19 @@ Website profil freelance web developer DAFRI Digital Studio. Showcase portfolio 
 
 - 🌙 **Dark Mode & Light Mode** — Toggle tema, preferensi tersimpan otomatis
 - 📂 **Portfolio Dinamis** — Data project dimuat dari `data/projects.json`
-- 💰 **Paket Harga** — Data layanan dimuat dari `data/services.json`
+- 💰 **Paket Layanan** — Data layanan dimuat dari `data/services.json`
 - 💬 **Konsultasi via WhatsApp** — Tombol langsung ke chat WhatsApp
 - 📱 **Fully Responsive** — Tampil rapi di HP, tablet, dan desktop
 
 ---
 
-## 💰 Paket Layanan
+## 📦 Paket Layanan
 
-| Paket | Harga | Fitur |
-|-------|-------|-------|
-| Basic | 300rb | Landing Page, 1 Halaman, WhatsApp Button |
-| UMKM | 500rb | Website Katalog, 5 Halaman, WA Order, SEO Dasar, Mobile Ready |
-| Pro | 1jt+ | Custom Design, Admin Panel, E-Commerce, Support 1 Tahun |
+| Paket | Fitur |
+|-------|-------|
+| Basic | Landing Page, 1 Halaman, WhatsApp Button, Mobile Friendly |
+| Standard | Website Katalog Produk/Menu, Google Sheets Kelola Data, WA Order |
+| Pro | Custom Design, Google Maps, Support 1 Bulan |
 
 ---
 
@@ -56,11 +56,10 @@ dafridev/
 }
 ```
 
-**Ubah paket harga** — edit `data/services.json`:
+**Ubah paket layanan** — edit `data/services.json`:
 ```json
 {
   "nama": "Nama Paket",
-  "harga": "500rb",
   "fitur": ["Fitur 1", "Fitur 2", "Fitur 3"]
 }
 ```
@@ -76,7 +75,7 @@ dafridev/
 ## 👨‍💻 Developer
 
 Dibuat oleh **DAFRI Digital Studio**
-Solusi website digital untuk UMKM Indonesia.
+Solusi website digital profesional dan modern.
 
 - 📸 Instagram: [@dafridigital](https://instagram.com/dafridigital)
 - 🎥 YouTube: [@DafriDev](https://youtube.com/@DafriDev)

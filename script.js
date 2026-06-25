@@ -57,7 +57,6 @@ async function loadServices() {
     container.innerHTML = services.map(s => `
       <div class="card">
         <h3>Paket ${s.nama}</h3>
-        <div class="price">${s.harga}</div>
         <ul class="fitur-list">
           ${s.fitur.map(f => `<li>${f}</li>`).join('')}
         </ul>

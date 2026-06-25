@@ -1,17 +1,14 @@
 [
   {
     "nama": "Basic",
-    "harga": "",
     "fitur": ["Landing Page 1 Halaman", "WhatsApp Button", "Mobile Friendly", "Deploy Gratis (GitHub Pages)"]
   },
   {
-    "nama": "UMKM",
-    "harga": "",
+    "nama": "Standard",
     "fitur": ["Website Katalog Produk/Menu", "Data Kelola via Google Sheets", "WhatsApp Order", "SEO Dasar", "Mobile Friendly"]
   },
   {
     "nama": "Pro",
-    "harga": "",
-    "fitur": ["Semua Fitur UMKM", "Hingga 5 Halaman", "Custom Design", "Google Maps Integrasi", "Support 1 Bulan"]
+    "fitur": ["Semua Fitur Standard", "Hingga 5 Halaman", "Custom Design", "Google Maps Integrasi", "Support 1 Bulan"]
   }
 ]
