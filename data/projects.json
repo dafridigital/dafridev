@@ -16,5 +16,17 @@
     "deskripsi": "Website menu digital modern untuk warung, cafe & restoran kecil.",
     "label": "Katalog",
     "link": "https://dafridigital.github.io/menu-digital-umkm/?key=WRW01"
+  },
+  {
+    "nama": "Cek Kecocokan Pasangan",
+    "deskripsi": "Aplikasi hiburan untuk menganalisis kecocokan pasangan berdasarkan zodiak, numerologi, dan elemen.",
+    "label": "Web App",
+    "link": "https://cek-kecocokan.vercel.app"
+  },
+  {
+    "nama": "Cek Kecocokan Keluarga",
+    "deskripsi": "Aplikasi analisis kecocokan hubungan keluarga (saudara & orang tua-anak) berbasis astrologi dan numerologi.",
+    "label": "Web App",
+    "link": "https://cek-kecocokan-keluarga.vercel.app"
   }
 ]
